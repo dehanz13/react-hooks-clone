@@ -13,12 +13,12 @@ function renderComponent() {
   // render the component, pass in some props, and the parent component.
   render(
     Component,
-    { propCount, buttonElm: document.getElementById("btn-count") },
+    { propCount, buttonElem: document.getElementById("btn-count") },
     document.getElementById("root")
   );
   render(
     Component,
-    { propCount, buttonElm: document.getElementById("btn-count-2") },
+    { propCount, buttonElem: document.getElementById("btn-count-2") },
     document.getElementById("root-2")
   );
 }
